@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "liba", "liba\liba.csproj", "{CC9A04B2-FE8E-4328-94B9-B4F51586C5C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "liba.tests", "liba.tests\liba.tests.csproj", "{B40EE4D7-3FE4-41B9-8D84-A79129A7AFCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC9A04B2-FE8E-4328-94B9-B4F51586C5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9A04B2-FE8E-4328-94B9-B4F51586C5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9A04B2-FE8E-4328-94B9-B4F51586C5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9A04B2-FE8E-4328-94B9-B4F51586C5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40EE4D7-3FE4-41B9-8D84-A79129A7AFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40EE4D7-3FE4-41B9-8D84-A79129A7AFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40EE4D7-3FE4-41B9-8D84-A79129A7AFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40EE4D7-3FE4-41B9-8D84-A79129A7AFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
