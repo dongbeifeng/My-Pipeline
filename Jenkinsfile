@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'set'
+                bat 'dotnet test'
+                bat 'dotnet build -o build'
             }
         }
     }
